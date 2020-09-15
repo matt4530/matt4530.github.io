@@ -1,0 +1,43 @@
+.section-light-orange {
+	background-color: #FF8F5E;
+	color: #FFFFFF;
+	background-image:none;
+}
+code.header {
+	font-size: 1.5em;
+	background-color: transparent;
+}
+div.hcontent {
+	display:none;
+}
+
+#navigation-example-2 {
+	font-size: 2em;
+}
+#navigation-example-2 ul {
+	/*line-height: 300%; */
+}
+
+@media (max-width: 768px) {
+	a.btn-simple {
+		line-height:300%;
+	}
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+.games-list h4, .games-list p {
+	text-align: center;
+}
+.details.collapse, .details.collapsing {
+	    margin-top: 40px;
+}
+.left-text p, .left-text h4{
+	text-align: left;
+}
+
+.games-list > .col-sm-6:nth-child(2n+2) {
+    clear: both;
+}
